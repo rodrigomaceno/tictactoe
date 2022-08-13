@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Div containing the heading that displays which player's turn it is + a legend showing what symbol is used for each player -->
+    <div class="center">
+        <h2 id='heading' class="container"></h2>
+        <div class="legend">Player 1 : X</div><div class="legend">Player 2 : O</div>
+    </div>
+
+    <!-- Div containing the table element and its children -->
+    <div id="myTable" class="container">
+        <table class="table table-light">
+    
+            <tbody >
+                <tr><td class="cell" id="1"></td><td class="cell" id="2"></td><td class="cell" id="3"></td></tr><tr><td class="cell" id="4"></td><td class="cell" id="5"></td><td class="cell" id="6"></td></tr><tr><td class="cell" id="7"></td><td class="cell" id="8"></td><td class="cell" id="9"></td></tr>
+            </tbody>
+    
+        </table>
+    </div>
+
+    <!-- Div + Restart button -->
+    <div id="restart" class="center">
+        <button type="button" class="btn btn-info">Restart game</button>
+    </div>
+
+    <!-- Div containing the heading to alert who won the game -->
+    <div class="center" id="myAlert"><h2 class="alert alert-warning" id="winnerAlert"></h2></div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="tictac.js"></script>
+</body>
+</html>

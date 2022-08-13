@@ -1,0 +1,68 @@
+
+.cell{
+    border: 1px black solid!important; 
+    
+    background-color:lightgray!important;
+    color: green!important;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.center{
+    width: auto;
+    text-align: center;
+}
+
+h3{
+    display: inline;
+}
+#heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:300px!important;
+    padding:15px;
+    color: coral;
+    text-align: center;
+    
+}
+
+#restart{
+    padding: 20px;
+}
+
+#winnerAlert{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:auto;
+    width:50%!important;
+    padding:15px;
+    color: black;
+    text-align: center;
+    
+}
+
+.legend{
+    word-spacing: 2px;
+}
+
+#myAlert{
+    margin:auto;
+    width: 50%;
+}
+
+
+table,th{
+    border: 2px solid!important; 
+    width:auto;
+    height: auto;
+    background-color: dimgray!important;
+    color: white!important;
+    text-align: center;
+    
+}
+
+#myTable{
+    padding-top: 20px;
+    width:300px;
+    height:200px
+}
