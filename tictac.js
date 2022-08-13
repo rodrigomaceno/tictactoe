@@ -108,8 +108,6 @@ function Game(){
 
     $('#heading').text('It\'s player 1\'s turn')
         
-
-    
     $("#1").on('click', function(){
         if($('#1').text() == ''){ 
         $('#1').text(player)
